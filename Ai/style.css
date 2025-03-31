@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Spicy+Rice&display=swap');
+body{
+    background-color: rgba(8, 0, 0, 0.869);
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    color: aliceblue;
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 1200;
+    font-style: normal;
+    width: 700px;
+}
+.three{
+   height: 500px;
+   width: 500px;
+   display: grid;
+   place-items: center;
+}
+#name{
+    font-size: 50px;
+    color: #D91656;
+}
+#assis{
+    font-size: 50px;
+    color:#FF6600;
+}
+.conta{
+    height: 100%;
+   display: grid;
+   place-items: center;
+}
+.text{
+    border: 3px ora;
+}
+.loader{
+    display: none;
+}
+.btn{
+    background-image: linear-gradient(to right,blue,pink);
+    border-radius: 30px;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px blue,4px 4px 10px pink;
+    border: none;
+    transition:all 0.4s  
+}
+.btn:hover{
+    box-shadow: 4px 4px 20px blue,4px 4px 20px pink;
+    letter-spacing: 1px;
+    ;
+}
